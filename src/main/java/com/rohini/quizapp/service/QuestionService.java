@@ -1,5 +1,6 @@
 package com.rohini.quizapp.service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
@@ -22,7 +23,7 @@ public class QuestionService {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return null;
+		return new ArrayList<>();
 		
 	}
 	
@@ -32,7 +33,7 @@ public class QuestionService {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return null;
+		return new ArrayList<>();
 		
 	}
 	
@@ -46,5 +47,6 @@ public class QuestionService {
 		}
 		
 	}
+
 
 }
